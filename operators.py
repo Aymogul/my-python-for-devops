@@ -15,3 +15,6 @@ y <= x
 
 # equals to 
 x == y
+
+# not equal to 
+x != y
