@@ -9,3 +9,9 @@ print(value)
 
 name_of_my_car = input('what is the name of the car? ')
 print(name_of_my_car) 
+
+name_of_houses = input('Your dream house: ')
+print(name_of_houses)
+
+dogs = 'black'
+print(dogs)
