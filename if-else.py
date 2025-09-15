@@ -45,4 +45,25 @@ if grade >= 60:
 else:
     print('Failed')
     print('You must take this course again')
-    
+
+grade = 100
+
+if grade >= 60:
+    print('Passed')
+else:
+    print('Failed')
+print('You must take this course again')
+
+# if…elif…else Statement
+grade = 77
+
+if grade >= 90:
+    print('A')
+elif grade >= 80:
+    print('B')
+elif grade >= 70:
+    print('C')
+elif grade >= 60:
+    print('D')
+else:
+    print('F')
