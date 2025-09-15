@@ -10,3 +10,8 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+# the type of varaibles we have are int, str and floats
+x = int
+y = str
+z = float
+
