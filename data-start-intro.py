@@ -17,7 +17,6 @@ print('The value of minimum is:', minimum)
 # getting the min and max via built in function
 
 min(2, 7, 99)
-print(min)
+
 
 max(994, 9974, 87)
-print(max)
