@@ -27,3 +27,19 @@ for num in range(5):
     if num == 2:
         continue
     print(num)
+
+# Function print’s sep Keyword Argument 
+print(10, 20, 30, sep=', ')
+
+# 3.8.1 Iterables, Lists and Iterators
+total = 0
+
+for number in [2, -3, 0, 17, 9]:
+    total = total + number
+    
+total
+
+# 3.8.2 Built-In range Function and Generators
+for counter in range(10):
+    print(counter, end=' ')
+    
