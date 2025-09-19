@@ -1,5 +1,11 @@
 # class_average_sentinel.py
 """Class average program with sentinel-controlled iteration."""
+# A sentinel value is a special value used to indicate “stop” or “no more input.”
+#Here, the sentinel is -1
+
+
+
+
 
 # initialization phase
 total = 0  # sum of grades
