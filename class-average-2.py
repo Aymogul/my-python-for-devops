@@ -26,3 +26,7 @@ if grade_counter != 0:
     print(f'Class average is {average:.2f}')
 else:
     print('No grades were entered')
+
+#     f'...' = interpolate variables into strings
+
+#    {average:.2f} = format average to 2 decimal places in fixed-point notation
