@@ -1,5 +1,5 @@
 # the basic idea behind for loop is iteration
-# for variable in sequence_name
+# for variable in sequence_name, print variable
 
 
 for character in 'Programming':
