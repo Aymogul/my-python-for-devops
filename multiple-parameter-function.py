@@ -19,5 +19,3 @@ maximum(13.5, -3, 7)
 max('yellow', 'red', 'orange', 'blue', 'green')
 
 min(15, 9, 27, 14)
-
-print(maximum)
