@@ -28,3 +28,10 @@ for roll in range(6_000_000):  # note underscore separators
         frequency5 += 1
     elif face == 6:
         frequency6 += 1
+print(f'Face{"Frequency":>13}')
+print(f'{1:>4}{frequency1:>13}')
+print(f'{2:>4}{frequency2:>13}')
+print(f'{3:>4}{frequency3:>13}')
+print(f'{4:>4}{frequency4:>13}')
+print(f'{5:>4}{frequency5:>13}')
+print(f'{6:>4}{frequency6:>13}')
