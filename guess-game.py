@@ -16,3 +16,12 @@ def get_guess():
                 print("Invalid input. Please enter a number within the specified range.")
         except ValueError:
             print("Invalid input. Please enter a valid number.")
+
+# Validate guess
+def check_guess(guess, secret_number):
+    if guess == secret_number:
+        return "Correct"
+    elif guess < secret_number:
+        return "Too low"
+    else:
+        return "Too high"
