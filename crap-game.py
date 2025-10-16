@@ -37,5 +37,9 @@ while game_status == 'CONTINUE':
     elif sum_of_dice == 7:  # lose by rolling 7
         game_status = 'LOST'
 
-
+# display "wins" or "loses" message
+if game_status == 'WON':
+    print('Player wins')
+else:
+    print('Player loses')
 
