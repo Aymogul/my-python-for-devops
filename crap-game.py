@@ -14,3 +14,6 @@ def display_dice(dice):
 
 die_values = roll_dice()  # first roll
 display_dice(die_values)
+
+# determine game status and point, based on first roll
+sum_of_dice = sum(die_values)
