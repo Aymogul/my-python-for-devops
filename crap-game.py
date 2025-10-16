@@ -11,3 +11,6 @@ def display_dice(dice):
     """Display one roll of the two dice."""
     die1, die2 = dice  # unpack the tuple into variables die1 and die2
     print(f'Player rolled {die1} + {die2} = {sum(dice)}')
+
+die_values = roll_dice()  # first roll
+display_dice(die_values)
