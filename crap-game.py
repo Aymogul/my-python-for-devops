@@ -17,3 +17,12 @@ display_dice(die_values)
 
 # determine game status and point, based on first roll
 sum_of_dice = sum(die_values)
+
+if sum_of_dice in (7, 11):  # win
+    game_status = 'WON'
+elif sum_of_dice in (2, 3, 12):  # lose
+    game_status = 'LOST'
+else:  # remember point
+    game_status = 'CONTINUE'
+    my_point = sum_of_dice
+    print('Point is', my_point)
